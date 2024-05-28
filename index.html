@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilha em JavaScript</title>
+   
+    <script src="pilha2.js" defer></script>
+  
+    <link rel="stylesheet" href="./pilha2.css">
+</head>
+<body>
+    <header>
+        <h1>Pilha</h1>
+    </header>
+    <main class="container">
+      
+        <fieldset>
+            <legend>Interagir com a Pilha</legend>
+            <form name="formPilha" id="formPilha">
+                <input type="hidden" name="pilha" id="pilha">
+                <label for="elemento">Elemento:</label>
+                <input type="text" name="elemento" id="elemento">
+                <button type="button" name="Inserir" id="inserirBtn">Adicionar na pilha</button>
+                <button type="button" name="Retirar" id="retirarBtn">Tirar da pilha</button>
+                <button type="button" name="ToggleView" id="toggleViewBtn">Alternar Visualização</button>
+            </form>
+        </fieldset>
+        <div id="conteudo" class="conteudo"></div>
+    </main>
+</body>
+</html>
